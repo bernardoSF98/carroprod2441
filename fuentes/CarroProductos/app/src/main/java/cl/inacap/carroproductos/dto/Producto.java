@@ -1,6 +1,9 @@
 package cl.inacap.carroproductos.dto;
+
+import java.io.Serializable;
+
 //class
-public class Producto {
+public class Producto implements Serializable {
     private String nombre;
     private String descripcion;
     private String foto;

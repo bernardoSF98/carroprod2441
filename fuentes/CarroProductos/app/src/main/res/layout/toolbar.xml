@@ -7,6 +7,7 @@
     android:minHeight="?attr/actionBarSize"
     app:popupTheme="@style/Theme.AppCompat.Light"
     android:id="@+id/toolbar"
+    android:padding="@dimen/paddingToolbar"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <LinearLayout
@@ -19,6 +20,7 @@
             android:layout_height="@dimen/imagenLogo"></ImageView>
         <TextView
             android:text="SHOPPING"
+            android:id="@+id/titulo_toolbar"
             android:textSize="@dimen/titulo_app_size"
             android:textStyle="bold"
             android:layout_gravity="center"
